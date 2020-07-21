@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_subject_name"
+            android:hint="Subject Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edt_require_percent"
+            android:hint="Required Percentage (1 - 100)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edt_attended"
+            android:hint="Total Attended OR 0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edt_bunked"
+            android:hint="Total Bunked OR 0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

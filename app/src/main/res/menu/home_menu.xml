@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refer"
+        android:orderInCategory="100"
+        android:title="Tell A Friend"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_tour"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="App Intro"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_reminder"
+        android:orderInCategory="100"
+        android:title="Reminder"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_out"
+        android:orderInCategory="100"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>

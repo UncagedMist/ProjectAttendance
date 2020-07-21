@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HELPERLY</string>
+    <string name="FACEBOOK_APP_ID">364818364135033</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">cd2fd4e72b037d6b30f27eeefdab82de</string>
+
+
+    <string name="admob_app_id">ca-app-pub-7920815986886474~9558080075</string>
+    <string name="admob_app_unit_id_interestial">ca-app-pub-7920815986886474/5044119994</string>
+    <string name="admob_app_unit_id_banner">ca-app-pub-7920815986886474/3737077027</string>
+
+</resources>

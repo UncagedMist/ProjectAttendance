@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_margin="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUpload"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_avatar" />
+
+            <EditText
+                android:id="@+id/edtFName"
+                android:hint="First Name"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:drawableTint="@color/colorGreenAccent"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:inputType="textPersonName"
+                android:maxLength="25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edtLName"
+                android:hint="Last Name"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:drawableTint="@color/colorGreenAccent"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:inputType="textPersonName"
+                android:maxLength="25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edtClgName"
+                android:layout_marginTop="4dp"
+                android:hint="College Name, Place Name"
+                android:inputType="textPostalAddress"
+                android:drawableLeft="@drawable/ic_school_black_24dp"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:drawableTint="@color/colorGreenAccent"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_marginTop="4dp"
+                android:inputType="phone"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:drawableTint="@color/colorGreenAccent"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
